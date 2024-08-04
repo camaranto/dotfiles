@@ -21,7 +21,8 @@ XTerm*pointerColor: #16A085
 XTerm*faceName: Fixed
 XTerm*faceSize: 14
 
-URxvt.font: xft:Ubuntu Mono:size=12
+URxvt.font: xft:UbuntuMono Nerd Font:style=Bold:size=12
+!URxvt*font:    xft:Hack Nerd Font:style=Regular:size=11
 urxvt.perl-ext-common: default,resize-font
 
 ! Dracula Xresources palette
