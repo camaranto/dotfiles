@@ -75,6 +75,8 @@ plugins=(git
 	zsh-syntax-highlighting
 	gitignore
 	fzf-tab
+	rvm
+	rbenv
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -130,3 +132,7 @@ eval "$(zellij setup --generate-auto-start zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 eval "$(zoxide init --cmd cd zsh)"
+
+source /home/anakim/.rvm/scripts/rvm
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
